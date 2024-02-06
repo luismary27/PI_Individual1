@@ -16,7 +16,7 @@ def developer_data(desarrollador: str):
     resultado.drop(columns='Juegos_cantidad', inplace=True)#Se elimian la columna 'juegos_cantidad'
     resultado.rename(columns={'release_date': 'Año', 'porcentaje_juegos_gratuitos': 'Contenido Free'}, inplace=True)#Renombramos las columnas como en las indicaciones
     resultado['Cantidad de Items'] = resultado['Cantidad de Items'].astype(int)#Convierte la columna 'Cantidad de Items' a enteros 'Contenido Free' a flotantes
-    resultado['Contenido Free'] = resultado['Contenido Free'].astype(float)#'Contenido Free' a flotantes
+    resultado['Contenido Free'] = resultado['Contenido Free'].apply(lambda x: '{:.2f}%'.format(x))#'Contenido Free' a flotantes
     #Convierte el DataFrame a una lista de diccionarios como se indica
     resultado_final_dev = resultado
     return resultado_final_dev
@@ -30,6 +30,7 @@ def userdata(user_id: str):
   total_price = round(user_compras['price'].sum(), 2)# Calculamos el monto de gasto total por usuarios
   user_reviews = df_reviews[(df_reviews['user_id'] == user_id) & (df_reviews['item_id'].isin(user_compras['item_id']))] # Se filtran las revisiones del usuario en df_reviews
   recomendacion_posi = (user_reviews['recommend'].sum() / float(len(user_reviews))) * 100 if len(user_reviews) > 0 else 0# Se calcula el porcentaje de recomendaciones positiva
+  recomendacion_posi = f"{recomendacion_posi:.2f}%"
   items_count = len(user_compras)# Calcular la cantidad de ítems comprados
   user_name = user_compras['user_id'].iloc[0] if not user_compras.empty else None# Extraer el nombre del usuario
 
