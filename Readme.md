@@ -20,7 +20,9 @@
 El presente proyecto tiene como objetivo desarrollar un sistema de recomendación de juegos basado en la plataforma Steam. El sistema estará compuesto por un Producto Mínimo Viable (MVP) que incluirá:
 
 API: Una interfaz de programación de aplicaciones (API) que permitirá a los usuarios obtener recomendaciones de juegos.
+
 Modelo de Machine Learning: Un modelo de Machine Learning que se encargará de generar las recomendaciones.
+
 Funciones extras: Funciones adicionales relacionadas con Steam, como la búsqueda de juegos, la obtención de información de juegos y la gestión de la biblioteca de juegos.
 
 <p align="center">
