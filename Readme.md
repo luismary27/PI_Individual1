@@ -78,7 +78,7 @@ El modelo de recomendación está listo para brillar. ✨ Se ha creado a partir 
 <br/>
 
 **`Video`**:
-link: 
+link: https://youtu.be/lUm7BejtsRE
 
 **´Deploy´**:
 link: https://steam-g.onrender.com/docs
