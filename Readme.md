@@ -9,8 +9,6 @@
 <img src="https://greensqa.com/wp-content/uploads/2020/04/Machine-Learning-01.jpg"  height=300>
 </p>
 
-¡Bienvenidos al primer proyecto individual de la etapa de labs! En esta ocasión estare realizando un proyecto con el rol de ***MLOps Engineer***.  
-
 <hr>  
 
 ## **Descripción del problema (Contexto y rol a desarrollar)**
