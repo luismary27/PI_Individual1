@@ -6,7 +6,7 @@
 # <h1 align=center>**`Machine Learning Operations (MLOps)`**</h1>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
+<img src="https://greensqa.com/wp-content/uploads/2020/04/Machine-Learning-01.jpg"  height=300>
 </p>
 
 ¡Bienvenidos al primer proyecto individual de la etapa de labs! En esta ocasión estare realizando un proyecto con el rol de ***MLOps Engineer***.  
@@ -24,7 +24,7 @@ Modelo de Machine Learning: Un modelo de Machine Learning que se encargará de g
 Funciones extras: Funciones adicionales relacionadas con Steam, como la búsqueda de juegos, la obtención de información de juegos y la gestión de la biblioteca de juegos.
 
 <p align="center">
-<img src="https://github.com/HX-PRomero/PI_ML_OPS/raw/main/src/DiagramaConceptualDelFlujoDeProcesos.png"  height=500>
+<img src="https://www.servicetonic.com/wp-content/uploads/2020/10/API-Interface-Servicetonic.png"  height=500>
 </p>
 
 <sub> Nota que aquí se reflejan procesos, no herramientas tecnológicas. Haz el ejercicio de entender qué herramienta del stack corresponde a cada parte del proceso<sub/>
@@ -52,19 +52,15 @@ requirements.txt: El archivo que lista las bibliotecas de Python necesarias para
 
 Para el desarrolo de la API se utiliza el framework FastAPI, creando las siguientes funciones solicitadas:
 
-+ def **developer( *desarrollador : str )**: Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
++ Def **developer( *desarrollador : str )**: Devuelve la cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
 
-+ def **userdata( *User_id : str )**: Debe devolver cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.
-Ejemplo de retorno: {"Usuario X" : us213ndjss09sdf, "Dinero gastado": 200 USD, "% de recomendación": 20%, "cantidad de items": 5}
++ Def **userdata( *User_id : str )**: Devuelve la cantidad de dinero gastado por el usuario y el porcentaje de recomendación 
 
-+ def **UserForGenre( *genero : str )**: Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año de lanzamiento.
-Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf, "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}
++ Def **UserForGenre( *genero : str )**: Devuelve el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año de lanzamiento.
 
-+ def **best_developer_year( *año : int )**: Devuelve el top 3 de desarrolladores con juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos)
-Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]
++ Def **best_developer_year( *año : int )**: Devuelve el top 3 de desarrolladores con juegos mas recomendados por usuarios para el año dado.
 
-+def **developer_reviews_analysis( *desarrolladora :** str ): Según el desarrollador, se devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
-Ejemplo de retorno: {'Valve' : [Negative = 182, Positive = 278]}
++ Def **developer_reviews_analysis( *desarrolladora : str )**: Según el desarrollador, se devuelve un diccionario con el nombre del desarrollador una lista con la cantidad total de registros de reseñas de usuarios como valor positivo o negativo.
 <br/>
 
 
@@ -73,16 +69,17 @@ Ejemplo de retorno: {'Valve' : [Negative = 182, Positive = 278]}
 El EDA ha sido nuestro faro en este viaje.  Gracias a él, ahora tenemos una comprensión profunda de los datos y estamos listos para dar el siguiente paso: entrenar nuestro modelo de Machine Learning.
 El modelo de recomendación está listo para brillar. ✨ Se ha creado a partir de la data steam_games, utilizando los item_id, géneros y nombres de videojuegos
 
-+ def **recomendacion_juego( *item_id : int )**: Esta función recibira como parametro el "id" de un titulo de juego y devuelve una lista con 5 juegos recomendacos similares al ingresado tomando como base de similitus el genero. Realizando una comparación item_item
-
++ Def **recomendacion_juego( *item_id : int )**: Esta función recibira como parametro el "id" de un titulo de juego y devuelve una lista con 5 juegos recomendacos similares al ingresado tomando como base de similitus el genero. 
 <br/>
 
-**`Video`**:
-link: https://youtu.be/lUm7BejtsRE
-
-**´Deploy´**:
-link: https://steam-g.onrender.com/docs
-
+**Video**  
+  
+Link: https://youtu.be/lUm7BejtsRE
+<br/>  
+**Deploy**  
+  
+Link: https://steam-g.onrender.com/docs  
+<br/>  
 
 
 
