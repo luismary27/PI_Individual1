@@ -25,8 +25,6 @@ Funciones extras: Funciones adicionales relacionadas con Steam, como la búsqued
 <img src="https://www.servicetonic.com/wp-content/uploads/2020/10/API-Interface-Servicetonic.png"  height=500>
 </p>
 
-<sub> Nota que aquí se reflejan procesos, no herramientas tecnológicas. Haz el ejercicio de entender qué herramienta del stack corresponde a cada parte del proceso<sub/>
-
 ## **Descripcion del proyecto**
 
 Datasets: En esta carpeta encontraremos todo lo que se necesita para comenzar! Hemos preprocesado cuidadosamente los conjuntos de datos utilizando técnicas ETL (Extracción, Transformación y Carga) para asegurarnos de que funcionen a la perfección tanto en FastAPI como en Render.
