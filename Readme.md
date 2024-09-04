@@ -1,5 +1,4 @@
 <p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
-cm
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1 📊** </h1>
 # <h1 align=center> ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas) ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy) ![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=matplotlib) ![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn) ![Scikitlearn](https://img.shields.io/badge/-Scikitlearn-333333?style=flat&logo=scikitlearn) ![FastAPI](https://img.shields.io/badge/-FastAPI-333333?style=flat&logo=fastapi) ![TextBlob](https://img.shields.io/badge/-TextBlob-333333?style=flat&logo=textblob) ![Render](https://img.shields.io/badge/-Render-333333?style=flat&logo=render)
 
